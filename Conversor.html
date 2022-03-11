@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de moedas - Imersão Dev Alura</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/converter.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de moedas
+      </h1>
+      <p class="page-subtitle">
+        Descubra os valores em real, bitcoin e libra R$
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+      <label for="moeda">Insira o valor em dolar </label><br>
+      <input type="number" id="valor" size="2" /><br>
+      <button type="submit" onclick="Converter()">Converter</button><br><br>
+      <label for="moeda">Insira o valor em dolar </label><br>
+      <input type="number" id="valorB" size="2" /><br>
+      <button type="submit" onclick="ConverterB()">Converter Bitcoin</button><br><br>
+      <label for="moeda">Insira o valor em dolar </label><br>
+      <input type="number" id="valorL" size="2" /><br>
+      <button type="submit" onclick="ConverterL()">Converter Libra</button>
+      <h2 id="valorConvertido"></h2>
+      <h3 id="valorConvertidoB"></h3>
+      <h4 id="valorConvertidoL"></h4>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+    <script src="js/conversor.js"></script>
+  </html>

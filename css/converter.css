@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://blog.btcorretora.com.br/wp-content/uploads/2021/04/blog-dolar-falke-post.jpg");
+
+  background-color: #000000;
+  background-size: 200vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
+h3 {
+  color: #ffffff;
+  font-size: 30px;
+}
+h4 {
+  color: #ffffff;
+  font-size: 30px;
+}
